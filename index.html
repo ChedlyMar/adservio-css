@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <title>Tailwind</title>
+</head>
+
+<body class="bg-gray-100">
+  <header class="px-12 mx-16 bg-white">
+    <div class="flex justify-end space-x-4 text-2xl py-2">
+      <a href="">
+        <i class="fa-brands fa-facebook-f hover:text-blue-700"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-linkedin hover:text-blue-700"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-tumblr  hover:text-blue-700"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-twitter hover:text-blue-700"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-vimeo-v hover:text-blue-700"></i>
+      </a>
+      <!-- <span class="material-icons md-24">linkedin</span> -->
+
+    </div>
+    <nav class="flex justify-between align-center my-8  ">
+      <div>
+        <img src="./assets//logo.png" width="200" alt="">
+      </div>
+      <ul class="flex space-x-8 my-auto text-lg font-bold text-gray-400">
+        <li>
+          <a href="" class="text-gray-900">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="" class="hover:text-gray-900">
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a href="" class="hover:text-gray-900">
+            Blog
+          </a>
+        </li>
+        <li>
+          <a href="" class="hover:text-gray-900">
+            Shortcodes
+          </a>
+        </li>
+        <li>
+          <a href="" class="hover:text-gray-900">
+            Features
+          </a>
+        </li>
+        <li>
+          <a href="" class="hover:text-gray-900">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="pb-12 ">
+      <img src="./assets/image-1.jpg" alt="">
+      <div class="absolute w-96  text-white bg-gray-800 bg-opacity-75 p-8 bottom-80 left-40 ">
+        <h2 class="text-4xl text-left">The Art of Minimalistic</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos earum suscipit sint tempore, maxime
+          exercitationem culpa.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="pb-12 px-12 mx-16 bg-white">
+    <!-- DESCRIPTION -->
+    <section>
+      <!-- BOX -->
+      <div class="flex justify-between border p-4">
+        <div class="flex align-center">
+          <h1 class="text-3xl font-bold">We are Good Space</h1>
+          <h3 class="text-2xl font-semibold text-gray-500 pt-1 ml-4 ">Super awsome creative agency London based</h3>
+        </div>
+        <button class="px-4 py-1 bg-blue-500 text-white font-semibold">Contact Us</button>
+      </div>
+
+      <div class="grid grid-cols-3 gap-10 my-8">
+        <div class="inline-grid gap-4 ">
+          <div>
+            <span class="bg-blue-500 p-2 rounded-full">
+              <i class="fa-solid fa-rotate-right text-white ml-1"></i>
+            </span>
+            <span class="ml-2 text-xl font-bold">Very Flexible</span>
+          </div>
+          <div class="text-gray-500 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in
+            soluta quia
+            assumenda
+            magnam
+          </div>
+          <div>
+            <a href="" class="italic font-semibold text-md">Learn More</a>
+          </div>
+        </div>
+        <div class="inline-grid gap-4 ">
+          <div>
+            <span class="bg-blue-500 p-2 rounded-full">
+              <i class="fa-solid fa-rotate-right text-white ml-1"></i>
+            </span>
+            <span class="ml-2 text-xl font-bold">Very Flexible</span>
+          </div>
+          <div class="text-gray-500 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            in soluta quia assumenda
+            magnam
+          </div>
+          <div>
+            <a href="" class="italic font-semibold text-md">Learn More</a>
+          </div>
+        </div>
+        <div class="inline-grid gap-4 ">
+          <div>
+            <span class="bg-blue-500 p-2 rounded-full">
+              <i class="fa-solid fa-cloud text-white ml-1"></i>
+            </span>
+            <span class="ml-2 text-xl font-bold">Very Flexible</span>
+          </div>
+          <div class="text-gray-500 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            in
+            soluta quia assumenda
+            magnam
+          </div>
+          <div>
+            <a href="" class="italic font-semibold text-md">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- WORK EXEMPLE -->
+    <section class="mt-12">
+      <div class="flex justify-between p-3 border my-4">
+        <h4 class="text-xl font-bold">Awsome Works</h4>
+        <a href="" class="mt-1 italic font-semibold text-sm">View All Projects <i
+            class="fa-sharp fa-solid fa-arrow-right ml-2 text-xs"></i></a>
+      </div>
+      <div class="grid grid-cols-3 gap-6 font-bold text-gray-600">
+        <div class="bg-slate-50 text-center">
+          <img src="./assets/image-1.jpg" alt="">
+          <div class="py-2">
+            <a href="">Justo Malesuada Ullem</a>
+          </div>
+        </div>
+        <div class="bg-slate-50 text-center">
+          <img src=" ./assets/image-1.jpg" alt="">
+          <div class="py-2">
+            <a href="">Donec Ullamcorper</a>
+          </div>
+        </div>
+        <div class="bg-slate-50 text-center">
+          <img src=" ./assets/image-1.jpg" alt="">
+          <div class="py-2">
+            <a href="">Slider Thambnail</a>
+          </div>
+        </div>
+        <div class="bg-slate-50 text-center">
+          <img src=" ./assets/image-1.jpg" alt="">
+          <div class="py-2">
+            <a href="">Vehicula Nullam</a>
+          </div>
+        </div>
+        <div class="bg-slate-50 text-center">
+          <img src=" ./assets/image-1.jpg" alt="">
+          <div class="py-2">
+            <a href="">Sollicitudin Pharetra Porta</a>
+          </div>
+        </div>
+        <div class="bg-slate-50 text-center">
+          <img src=" ./assets/image-1.jpg" alt="">
+          <div class="py-2">
+            <a href="">Quam Purus</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="grid grid-cols-3 gap-10 pb-8 px-32 pt-8 bg-gray-200">
+      <!-- WORK WIDGET -->
+      <section>
+        <h3 class="text-md font-bold">Recent Port Widget</h3>
+        <div class="grid grid-cols-4 gap-2 mt-6">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+          <img src="./assets/image-1.jpg" alt="">
+        </div>
+      </section>
+      <!-- TAGS -->
+      <section>
+        <h3 class="text-md font-bold">Tags</h3>
+        <div class="mt-6 flex flex-wrap gap-2">
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">agency</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">business</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">blog</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">ceremony</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">computer</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">conferrence</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">drugs</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">news</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">party</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">people</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">tech</span>
+          <span class="px-2 pb-1 border rounded bg-white font-semibold text-sm">travel</span>
+        </div>
+      </section>
+      <!-- ABOUT US & CONTACT INFO -->
+      <section>
+        <div class="mb-10">
+          <h3 class="text-md font-bold">About Us</h3>
+          <p class=" mt-6 text-gray-500 font-semibold text-sm">We are online creative agency. We create super awsome
+            online
+            presences
+            for our
+            potential client.
+            Check our portfolio out.</p>
+        </div>
+        <div>
+          <h3 class="text-md font-bold mb-6">Contact Info</h3>
+          <div>
+            <div class="mb-2">
+              <p class="text-gray-500 font-semibold text-sm"><i class="fa-solid fa-house mr-2"></i>Jhon Smith 269 Main
+                Street London England</p>
+            </div>
+            <div class="mb-2">
+              <p class="font-semibold text-sm"><i class="fa-solid fa-envelope mr-2"></i>contact@goodlayers.com</p>
+            </div>
+            <div class="mb-2">
+              <p class=" font-semibold text-sm"><i class="fa-solid fa-phone mr-2"></i>(11)11-223-4566</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- COPYRIGHT -->
+    <div class="text-center py-2 bg-gray-900 text-gray-400 font-semibold">
+      <i class="fa-regular fa-copyright"></i> Copyright 2012, GoodLayers Creative Cooperation
+    </div>
+  </footer>
+</body>
+
+</html>
